@@ -1,0 +1,18 @@
+cat <<EOF > ~/comandos-pt/ajuda.txt
+---------------------------------------------------------
+       LISTA DE COMANDOS EM PORTUGUÊS (PT-PT)
+---------------------------------------------------------
+COMANDO PT    | COMANDO ORIGINAL | O QUE FAZ
+---------------------------------------------------------
+ajuda         | cat ajuda.txt    | Mostra esta lista
+atualizar     | apt update...    | Atualiza o sistema
+baixar        | apt install      | Instala um programa
+desinstalar   | apt remove       | Remove um programa
+procurar      | apt search       | Procura programas
+limpar        | clear            | Limpa o ecrã
+ondeestou     | pwd              | Mostra a pasta atual
+ver-ip        | hostname -I      | Mostra o seu IP
+desligar      | shutdown now     | Desliga o PC
+reiniciar     | reboot           | Reinicia o PC
+---------------------------------------------------------
+EOF
