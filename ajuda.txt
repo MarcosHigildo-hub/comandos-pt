@@ -1,18 +1,37 @@
-cat <<EOF > ~/comandos-pt/ajuda.txt
----------------------------------------------------------
-       LISTA DE COMANDOS EM PORTUGUÊS (PT-PT)
----------------------------------------------------------
-COMANDO PT    | COMANDO ORIGINAL | O QUE FAZ
----------------------------------------------------------
-ajuda         | cat ajuda.txt    | Mostra esta lista
-atualizar     | apt update...    | Atualiza o sistema
-baixar        | apt install      | Instala um programa
-desinstalar   | apt remove       | Remove um programa
-procurar      | apt search       | Procura programas
-limpar        | clear            | Limpa o ecrã
-ondeestou     | pwd              | Mostra a pasta atual
-ver-ip        | hostname -I      | Mostra o seu IP
-desligar      | shutdown now     | Desliga o PC
-reiniciar     | reboot           | Reinicia o PC
----------------------------------------------------------
-EOF
+-----------------------------------------------------------------------------
+                 LISTA DE COMANDOS EM PORTUGUÊS (PT-PT)
+-----------------------------------------------------------------------------
+ COMANDO PT      | COMANDO ORIGINAL          | O QUE FAZ
+-----------------------------------------------------------------------------
+ ajuda           | cat ajuda.txt             | Mostra este manual
+ atualizar       | apt update && upgrade     | Atualiza o sistema todo
+ instalar/baixar | apt install               | Instala novos programas
+ remover         | apt remove                | Desinstala programas
+ procurar        | apt search                | Procura pacotes/apps
+ pc-info         | neofetch                  | Info do hardware e sistema
+ limpar          | clear                     | Limpa o ecrã do terminal
+ ondeestou       | pwd                       | Mostra o caminho da pasta
+ ver-ip          | hostname -I               | Mostra o teu endereço IP
+ desligar        | shutdown now              | Encerra o computador
+ reiniciar       | reboot                    | Reinicia o sistema
+-----------------------------------------------------------------------------
+ GESTÃO DE FICHEIROS:
+-----------------------------------------------------------------------------
+ criar-pasta     | mkdir -p                  | Cria pastas/diretórios
+ criar-ficheiro  | touch                     | Cria um ficheiro vazio
+ apagar          | rm -i                     | Apaga (pede confirmação)
+ copiar          | cp -rv                    | Copia ficheiros/pastas
+ mover           | mv -v                     | Move ou renomeia itens
+ tamanho         | du -sh * | Vê o espaço usado por pasta
+-----------------------------------------------------------------------------
+ NAVEGAÇÃO E UTILIDADES:
+-----------------------------------------------------------------------------
+ ..              | cd ..                     | Sobe um nível de pasta
+ ...             | cd ../..                  | Sobe dois níveis de pasta
+ documentos      | cd ~/Documentos           | Vai para a pasta Documentos
+ downloads       | cd ~/Transferências       | Vai para a pasta Downloads
+ processos       | top                       | Vê o uso de CPU e RAM
+ internet-on     | ping -c 4 google.com      | Testa a ligação à rede
+ portas          | ss -tulnp                 | Vê portas de rede abertas
+ historico       | history | grep            | Procura comandos antigos
+-----------------------------------------------------------------------------
